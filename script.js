@@ -56,5 +56,5 @@ reset = () => {
     play3 = "";
 }
 
-
-document.getElementById("button").addEventListener('click', roll)
+dice[0].addEventListener("click", roll);
+dice[1].addEventListener("click", roll);
