@@ -51,11 +51,70 @@
     border-style: solid;
 }
 
-#hombre3 {
+#add {
+    background-color: seagreen;
     position: absolute;
-    background-image: url(images/hombre3.png);
-    background-size: cover, contain;
-    height: 450px;
-    width: 300px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 5px;
+    font-style: oblique;
+    border-radius: 10%;
+}
+
+
+
+.player {
+    background-color: #D9E650;
+    padding: 5px;
+    border-radius: 10%;
+    border-color: #FDFF00;
+    border-style: solid;
+    text-align: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    padding-top: 20px;
+    background-color: seagreen;
+    font-style: italic;    
+    text-align: center;
+    width: 100%;
+}
+
+#play1 {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+#play2 {
+    position: absolute;
+    top: 4%;
+    left: 23%;
+}
+
+#play3 {
+    position: absolute;
+    top: 4%;
+    left: 37%;
+}
+
+#play4 {
+    position: absolute;
+    top: 4%;
+    left: 60%;
+}
+
+#play5 {
+    position: absolute;
+    top: 4%;
     left: 75%;
+}
+
+#play6 {
+    position: absolute;
+    top: 4%;
+    left: 88%;
 }
